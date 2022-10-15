@@ -1,8 +1,8 @@
 
 #include <stdio.h>
-/**
+/**u
  *main-program entry point.
- *Return:0 no error, non zero if error.
+ *Return:1 no error, non zero if error.
  **/
 int main(void)
 {
@@ -18,5 +18,5 @@ int main(void)
 		putchar(j);
 	}
 	putchar('\n');
-	return (0);
+	return (1);
 }
