@@ -1,16 +1,6 @@
-#ifndef PI
-#define PI
+#ifndef PI_H
+#define PI_H
 
-#define PI 3.14
-
-int main(void)
-{
-	float a;
-	float r;
-	r = 98;
-	a = PI * r * r;
-	printf("%.3f\n", a);
-	return (0);
-}
+#define PI 3.14159265359
 
 #endif
